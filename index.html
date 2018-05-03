@@ -2,21 +2,15 @@
 <html>
     <head>
         <title>Head, Shoulders, Knees, and Toes</title>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     </head>
+
     <body>
-         <!-- <div class="quiz-container">
-                <div id="quiz"></div>
-              </div>
-              <button id="previous">Previous Question</button>
-              <button id="next">Next Question</button>
-              <button id="submit">Submit Quiz</button>
-              <div id="results"></div> -->
 
         <div class="container">
             <div class="row">
@@ -24,6 +18,9 @@
                     <h1>Head, Shoulders, Knees and Toes</h1>
                 </div>
             </div>
+        </div>
+        
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">                    
                     Time remaining:  <span id = timer> </span> seconds
@@ -31,38 +28,61 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
+                    <div id = images></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">    
+            <div class="row">
+                <div class="col-md-12">
                     <span id = "quiz-questions"></span>
                 </div>
             </div>
+            <br>
+
             <div class="row">
                 <div class="col-md-12">
-                    <span id = "quiz-questions1"></span>
+                    <input type="radio" name="userGuess" ID="a" value=0> <span id = "quiz-answers"></span>
                 </div>
             </div>
+            <br>
+
             <div class="row">
                 <div class="col-md-12">
-                    <span id = "quiz-questions2"></span>
+                    <input type="radio" name="userGuess"  ID="b" value=1> <span id = "quiz-answers2"></span>
                 </div>
             </div>
+            <br>
+
             <div class="row">
                 <div class="col-md-12">
-                    <span id = "quiz-questions3"></span>
+                    <input type="radio" name="userGuess"  ID="c" value=2> <span id = "quiz-answers3"></span>
+                </div>
+            </div> 
+            <br>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="radio" name="userGuess"  ID="d" value=3> <span id = "quiz-answers4"></span>
                 </div>
             </div>  
+        </div>
         
+        <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <button id="previous">Previous Question</button>
+                    
                 </div>
                 <div class="col-md-4">
                     <button id="next">Next Question</button>
                 </div>
                 <div class="col-md-4">
-                    <button id="submit">Submit Quiz</button>
+                    
                 </div>
             </div>
+            <div id = "results"> </div>
         </div>
-
+        
         <script src="assets/javascript/app.js"></script>
     </body>
 </html>

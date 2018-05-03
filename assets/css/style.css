@@ -1,0 +1,35 @@
+.container {
+    max-width: 960px;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid red;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+button {
+    background-color: black;
+    color: red;
+    padding: 10px;
+}
+
+#quiz-questions {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    line-height: 1.5em;
+}
